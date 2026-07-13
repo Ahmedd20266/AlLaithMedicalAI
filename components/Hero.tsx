@@ -33,7 +33,7 @@ export default function Hero() {
           <img
             src="/images/hospital.jpg"
             alt="Al Laith Medical Complex"
-            className="w-full max-w-xl rounded-3xl shadow-2xl object-cover"
+            className="w-full rounded-3xl shadow-2xl object-cover"
           />
 
         </div>
