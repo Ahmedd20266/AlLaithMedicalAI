@@ -4,7 +4,7 @@ export default function Hero() {
       id="home"
       className="bg-gradient-to-r from-sky-800 via-sky-700 to-sky-600"
     >
-      <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-[1fr_1.4fr] gap-12 items-center">
 
         {/* Left Side */}
 
@@ -33,7 +33,7 @@ export default function Hero() {
           <img
             src="/images/hospital.jpg"
             alt="Al Laith Medical Complex"
-            className="w-full rounded-3xl shadow-2xl object-cover"
+            className="w-full h-[520px] rounded-3xl shadow-2xl object-cover"
           />
 
         </div>
