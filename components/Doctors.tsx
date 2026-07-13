@@ -47,7 +47,7 @@ export default function Doctors() {
             Our Doctors
           </h2>
 
-          <p className="text-gray-600 mt-3">
+          <p className="text-gray-700 mt-3 text-xl">
             نخبة من الأطباء ذوي الخبرة لخدمتكم
           </p>
         </div>
@@ -57,31 +57,30 @@ export default function Doctors() {
           {doctors.map((doctor) => (
             <div
               key={doctor.name}
-              className="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-2xl transition duration-300"
+              className="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
             >
-              <div className="text-7xl">
+              <div className="text-7xl mb-5">
                 {doctor.icon}
               </div>
 
-              <h3 className="text-2xl font-bold mt-5">
+              <h3 className="text-xl md:text-2xl font-extrabold text-black leading-relaxed">
                 {doctor.name}
               </h3>
 
-              <p className="text-sky-700 font-semibold mt-2">
+              <p className="text-sky-700 font-bold text-lg mt-3">
                 {doctor.title}
               </p>
 
-              <p className="text-gray-600 mt-1">
+              <p className="text-gray-800 text-lg mt-2">
                 {doctor.specialty}
               </p>
 
               <a
                 href="#appointment"
-                className="mt-6 inline-block bg-sky-700 hover:bg-sky-800 text-white px-6 py-3 rounded-xl transition"
+                className="mt-8 inline-block bg-sky-700 hover:bg-sky-800 text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300"
               >
                 Book Appointment
               </a>
-
             </div>
           ))}
 
