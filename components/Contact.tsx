@@ -1,65 +1,63 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-slate-900 py-20">
+    <section id="contact" className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-14">
-          <h2 className="text-4xl font-bold text-white">
+          <h2 className="text-4xl font-bold text-sky-700">
             Contact & Location
           </h2>
 
-          <p className="text-2xl text-blue-300 mt-3">
+          <p className="text-2xl text-gray-700 mt-3">
             تواصل معنا
           </p>
 
-          <p className="text-gray-400 mt-4">
+          <p className="text-gray-600 mt-4">
             We are always happy to serve you.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
 
-          {/* Contact Information */}
+          <div className="bg-slate-50 rounded-3xl p-10 shadow-lg border border-slate-200">
 
-          <div className="bg-slate-800 rounded-3xl p-10 shadow-xl">
-
-            <h3 className="text-3xl font-bold text-white mb-8">
+            <h3 className="text-3xl font-bold text-sky-700 mb-8">
               Contact Information
             </h3>
 
             <div className="space-y-6 text-lg">
 
               <div>
-                <p className="text-sky-400 font-semibold">📍 Address</p>
-                <p className="text-gray-300">
+                <p className="text-sky-700 font-semibold">📍 Address</p>
+                <p className="text-gray-700">
                   Al Lith - King Faisal Road
                 </p>
               </div>
 
               <div>
-                <p className="text-sky-400 font-semibold">☎ Telephone</p>
-                <p className="text-gray-300">
+                <p className="text-sky-700 font-semibold">☎ Telephone</p>
+                <p className="text-gray-700">
                   0177423447
                 </p>
               </div>
 
               <div>
-                <p className="text-sky-400 font-semibold">📱 Mobile</p>
-                <p className="text-gray-300">
+                <p className="text-sky-700 font-semibold">📱 Mobile</p>
+                <p className="text-gray-700">
                   0177420806
                 </p>
               </div>
 
               <div>
-                <p className="text-sky-400 font-semibold">📠 Fax</p>
-                <p className="text-gray-300">
+                <p className="text-sky-700 font-semibold">📠 Fax</p>
+                <p className="text-gray-700">
                   0177424031
                 </p>
               </div>
 
               <div>
-                <p className="text-sky-400 font-semibold">🕒 Working Hours</p>
-                <p className="text-gray-300">
+                <p className="text-sky-700 font-semibold">🕒 Working Hours</p>
+                <p className="text-gray-700">
                   Daily from 8:00 AM until 1:00 AM
                 </p>
               </div>
@@ -68,9 +66,7 @@ export default function Contact() {
 
           </div>
 
-          {/* Google Map */}
-
-          <div className="rounded-3xl overflow-hidden shadow-xl">
+          <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200">
 
             <iframe
               src="https://www.google.com/maps?q=Al+Laith+Medical+Complex&output=embed"

@@ -1,39 +1,43 @@
 export default function Hero() {
   return (
-    <section id="home" className="bg-slate-900">
-      <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+    <section
+      id="home"
+      className="bg-gradient-to-r from-sky-800 via-sky-700 to-sky-600"
+    >
+      <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
+
+        {/* Left Side */}
+
         <div>
-          <h1 className="text-6xl font-bold text-white">
+
+          <h1 className="text-5xl lg:text-6xl font-extrabold text-white leading-tight">
             Al Laith Medical Complex
           </h1>
 
-          <p className="text-3xl text-blue-200 mt-4">
+          <h2 className="text-3xl text-sky-100 mt-4">
             مجمع الليث المتكامل الطبي العام
-          </p>
+          </h2>
 
-          <p className="text-gray-300 mt-8 text-xl">
+          <p className="text-white/90 mt-8 text-xl leading-9">
             Comprehensive healthcare with experienced physicians,
-            advanced medical services and trusted insurance partners.
+            advanced medical equipment, trusted insurance partners,
+            and compassionate patient care.
           </p>
 
-          <div className="mt-10 flex gap-4">
-            <button className="bg-blue-600 text-white px-8 py-4 rounded-xl">
-              Book Appointment
-            </button>
-
-            <button className="border border-white text-white px-8 py-4 rounded-xl">
-              Contact Us
-            </button>
-          </div>
         </div>
 
+        {/* Right Side */}
+
         <div className="flex justify-center">
+
           <img
             src="/images/hospital.jpg"
             alt="Al Laith Medical Complex"
-            className="rounded-3xl shadow-2xl object-cover w-full h-[450px]"
+            className="w-full max-w-xl rounded-3xl shadow-2xl object-cover"
           />
+
         </div>
+
       </div>
     </section>
   );

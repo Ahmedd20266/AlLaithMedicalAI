@@ -15,19 +15,19 @@ export default function Insurance() {
   ];
 
   return (
-    <section id="insurance" className="bg-slate-900 py-20">
+    <section id="insurance" className="bg-slate-50 py-20">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-14">
-          <h2 className="text-4xl font-bold text-white">
+          <h2 className="text-4xl font-bold text-sky-700">
             Insurance Partners
           </h2>
 
-          <p className="text-2xl text-blue-300 mt-3">
+          <p className="text-2xl text-gray-700 mt-3">
             شركات التأمين المعتمدة
           </p>
 
-          <p className="text-gray-400 mt-4">
+          <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
             We proudly cooperate with leading health insurance companies across Saudi Arabia.
           </p>
         </div>
@@ -37,9 +37,9 @@ export default function Insurance() {
           {companies.map((company) => (
             <div
               key={company}
-              className="bg-slate-800 rounded-2xl p-8 text-center shadow-lg hover:bg-sky-700 hover:scale-105 transition duration-300"
+              className="bg-white rounded-2xl border border-slate-200 p-8 text-center shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
-              <h3 className="text-white text-xl font-bold">
+              <h3 className="text-sky-700 text-xl font-bold">
                 {company}
               </h3>
             </div>
